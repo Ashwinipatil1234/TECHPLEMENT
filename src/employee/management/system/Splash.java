@@ -17,7 +17,7 @@ public class Splash extends JFrame implements ActionListener {
         heading.setForeground(Color.BLACK);
         add(heading);
         
-        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("icons/front1.jpg"));
+        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("icons/front.jpg"));
         Image i2 = i1.getImage().getScaledInstance(1100, 700, Image.SCALE_DEFAULT);
         ImageIcon i3 = new ImageIcon(i2);
         JLabel image = new JLabel(i3);
@@ -26,8 +26,8 @@ public class Splash extends JFrame implements ActionListener {
         
         JButton clickhere = new JButton("CLICK HERE TO CONTINUE");
         clickhere.setBounds(400, 400, 300, 70);
-        clickhere.setBackground(Color.BLACK);
-        clickhere.setForeground(Color.WHITE);
+        clickhere.setBackground(Color.WHITE);
+        clickhere.setForeground(Color.BLACK);
         clickhere.addActionListener(this);
         image.add(clickhere);
         

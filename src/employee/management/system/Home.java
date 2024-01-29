@@ -12,7 +12,7 @@ public class Home extends JFrame implements ActionListener{
         
         setLayout(null);
         
-        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("icons/home.jpg"));
+        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("icons/details.jpg"));
         Image i2 = i1.getImage().getScaledInstance(1120, 630, Image.SCALE_DEFAULT);
         ImageIcon i3 = new ImageIcon(i2);
         JLabel image = new JLabel(i3);
